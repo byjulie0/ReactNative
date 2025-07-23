@@ -1,4 +1,4 @@
-import { View, Text,Imagem } from "react-native";
+import { View, Text,Image } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 import AntDesign from '@expo/vector-icons/AntDesign';
 
@@ -34,8 +34,9 @@ export default function Index() {
           More <AntDesign name="down" size={12} color="black" />
         </Text>
       </View>
-      <View className="max-w-10 max-h-10 bg-white">
-        <Imagem></Imagem>
+      <View className="h-50 w-40 flex flex-col flex-wrap bg-white mt-3">
+      <Image className="w-1 h-1 flex ml-4 mr-4" source={require('../assets/images/vestido_verde.png')} resizeMode="contain"/>
+      
         
       </View>
     </View>
